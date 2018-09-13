@@ -31,12 +31,6 @@ apps:
     groups:
       - dide-internal
 
-  debug:
-    type: local
-    spec: debug
-    groups:
-      - admin
-
   hello:
     type: local
     spec: hello
