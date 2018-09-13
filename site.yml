@@ -33,17 +33,17 @@ apps:
 
   debug:
     type: local
-    spec: local/debug
+    spec: debug
     groups:
       - admin
 
   hello:
     type: local
-    spec: local/hello
+    spec: hello
 
   test:
     type: local
-    spec: local/test
+    spec: test
 
 groups:
   dide-internal:
