@@ -22,6 +22,14 @@ apps:
       paths:
         - emails.db
         - contributions
+    secret:
+      .redis:
+        path: "misc/redis-url"
+        field: value
+      .googlesheets-oauth:
+        path: "misc/googlesheets-oauth"
+        field: token
+        binary: true
 
   eppasmviewer:
     type: github
