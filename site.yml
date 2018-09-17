@@ -5,6 +5,7 @@ server:
   email: "r.fitzjohn@imperial.ac.uk"
   port_http: 80
   port_https: 443
+  port_admin: 9000
   # used for the self-signed certificate
   country: UK
   state: London
@@ -52,4 +53,4 @@ groups:
     - rich
     - jeff
   admin:
-    - admin
+    - rich
