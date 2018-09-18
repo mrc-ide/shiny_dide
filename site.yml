@@ -49,6 +49,10 @@ apps:
     admin:
       - jeff
 
+  polici:
+    type: github
+    spec: mrc-ide/POLICI@auto_provision
+
   hello:
     type: local
     spec: hello
