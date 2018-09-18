@@ -36,6 +36,8 @@ apps:
         frequency: "@hourly"
         command: ./update_googlesheets
         enabled: false
+    admin:
+      - acori
 
   eppasmviewer:
     type: github
@@ -44,6 +46,8 @@ apps:
       type: deploy_key
     groups:
       - dide-internal
+    admin:
+      - jeff
 
   hello:
     type: local
@@ -57,5 +61,6 @@ groups:
   dide-internal:
     - rich
     - jeff
+    - acori
   admin:
     - rich
