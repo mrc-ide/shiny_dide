@@ -20,7 +20,7 @@ Then set everything up
 Do the actual deployment with
 
 ```
-docker compose up -d -scale shiny=12
+docker-compose up -d --scale shiny=12
 ./scripts/register_workers 12
 ```
 
