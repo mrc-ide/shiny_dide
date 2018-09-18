@@ -49,7 +49,7 @@ apps:
 
   polici:
     type: github
-    spec: mrc-ide/POLICI@auto_provision
+    spec: arranhamlet/POLICI
 
   hello:
     type: local
