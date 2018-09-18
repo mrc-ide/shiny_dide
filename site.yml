@@ -18,7 +18,7 @@ vault:
 apps:
   typochallenge:
     type: github
-    spec: mrc-ide/typochallenge@auto_provision
+    spec: mrc-ide/typochallenge@external
     protect:
       paths:
         - emails.db
@@ -31,10 +31,15 @@ apps:
         path: "misc/googlesheets-oauth"
         field: token
         binary: true
+    schedule:
+      update_googlesheets:
+        frequency: "@hourly"
+        command: ./update_googlesheets
+        enabled: false
 
   eppasmviewer:
     type: github
-    spec: mrc-ide/eppasmviewer/inst/shiny/eppasmviewer@auto_provision
+    spec: mrc-ide/eppasmviewer/inst/shiny/eppasmviewer
     auth:
       type: deploy_key
     groups:
