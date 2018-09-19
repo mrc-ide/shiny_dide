@@ -50,12 +50,12 @@ apps:
   polici:
     type: github
     spec: arranhamlet/POLICI
-    
-  seasonal_hrp2
+
+  seasonal_hrp2:
     type: github
     spec: ojwatson/hrp2malaRia/inst/shiny-seasonality/app
     username: ojwatson
-    
+
   hello:
     type: local
     spec: hello
