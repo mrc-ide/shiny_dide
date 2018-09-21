@@ -54,7 +54,7 @@ apps:
   seasonal_hrp2:
     type: github
     spec: ojwatson/hrp2malaRia/inst/shiny-seasonality/app
-    username: ojwatson
+    admin: ojwatson
 
   hello:
     type: local
