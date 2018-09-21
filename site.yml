@@ -43,7 +43,8 @@ apps:
     auth:
       type: deploy_key
     groups:
-      - dide-internal
+      - admin
+      - eppasmviewer-users
     admin:
       - jeff
 
@@ -71,5 +72,8 @@ groups:
     - rich
     - jeff
     - acori
+  epidem:
+    - epidem
+    - jeff
   admin:
     - rich
