@@ -44,7 +44,7 @@ apps:
       type: deploy_key
     groups:
       - admin
-      - eppasmviewer-users
+      - epidem
     admin:
       - jeff
 
