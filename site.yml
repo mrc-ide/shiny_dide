@@ -39,7 +39,7 @@ apps:
 
   eppasmviewer:
     type: github
-    spec: mrc-ide/eppasmviewer/inst/shiny/eppasmviewer
+    spec: mrc-ide/eppasmviewer/inst/shiny/eppasmviewer@refgroup_sept18
     auth:
       type: deploy_key
     groups:
