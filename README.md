@@ -61,7 +61,7 @@ Which will install your package (and its dependencies).  The `packages` section 
 
 The keys are:
 
-- `<path-for-your-app>` where the application will be hosted.  If you use `superhampster` then your application will be hosted at https://shiny.dide.imperial.ac.uk/superhampster
+- `<path-for-your-app>` where the application will be hosted.  If you use `superhampster` then your application will be hosted at https://shiny.dide.imperial.ac.uk/superhampster - there is no need for any match between this and your repository name.
 - `<github-account>/<repo-name>` is similar to what is used for `install_github` - where to find the repo.  This is `mrc-ide/typochallenge` for https://github.com/mrc-ide/typochallenge - but if your application lives at a subdirectory within your repo and you want a specific branch, tag, or commit you might want to use the full spec such as `mrc-ide/superhampster/inst/app@release` which would use the application within the directory `inst/app` on the `release` branch of the repository `mrc-ide/superhampster` (see `remotes::parse_github_repo_spec` to play with the parseing of these specs)
 - `<username>`: a username that you'd like on the server.  This will be used by the (currently in development) administration interface.  This does not need to be your DIDE username.
 
@@ -84,7 +84,9 @@ to the yaml above.  As part of the process Rich will send you a public key to ad
 
 to your yaml.  You should add a group to the bottom of the file too if none of the other groups look like what you want.  Just list usernames that you'd like and we can sort out the rest later.
 
-**Let Rich know**: Create a pull request with your changes and tag `@richfitz` in the request, and let Rich know on slack too.  Join the `#shiny-server` channel on slack so that you are notified of changes.
+**Let Rich know**: Create a pull request with your changes and tag `@richfitz` in the request, and let Rich know on slack too.  Please [tick the box](https://help.github.com/articles/allowing-changes-to-a-pull-request-branch-created-from-a-fork/) that lets me edit your pull request as it makes things a bit easier.
+
+Join the `#shiny-server` channel on slack so that you are notified of changes.
 
 **What happens next?**: Rich will try and deploy your application and may request a few changes so that it deploys smoothly.
 
