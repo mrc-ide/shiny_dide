@@ -33,7 +33,6 @@ apps:
       update_googlesheets:
         frequency: "@hourly"
         command: ./update_googlesheets
-        enabled: false
     admin:
       - acori
 
