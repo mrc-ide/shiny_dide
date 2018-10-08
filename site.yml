@@ -16,7 +16,7 @@ vault:
 apps:
   typochallenge:
     type: github
-    spec: mrc-ide/typochallenge@external
+    spec: mrc-ide/typochallenge
     protect:
       paths:
         - emails.db
