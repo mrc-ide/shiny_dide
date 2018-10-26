@@ -56,6 +56,14 @@ apps:
     spec: ojwatson/hrp2malaRia/inst/shiny-seasonality/app
     admin: ojwatson
 
+  fitr:
+    type: github
+    spec: ada-w-yan/fitr
+    auth:
+      type: deploy_key
+    admin:
+      - ayan
+
   hello:
     type: local
     spec: hello
