@@ -56,7 +56,7 @@ apps:
     spec: ojwatson/hrp2malaRia/inst/shiny-seasonality/app
     admin: ojwatson
 
-  fitr:
+  flupractical2:
     type: github
     spec: ada-w-yan/fitr
     auth:
