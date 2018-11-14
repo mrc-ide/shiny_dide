@@ -64,6 +64,10 @@ apps:
     admin:
       - ayan
 
+  stochasticity-practical/example1:
+    type: github
+    spec: mrc-ide/stochasticity-practical/EXAMPLE4@rich-updates
+
   hello:
     type: local
     spec: hello
