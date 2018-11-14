@@ -64,9 +64,22 @@ apps:
     admin:
       - ayan
 
+  # Group of related applications for MSc teaching November 2018
+  stochasticity-practical/example1:
+    type: github
+    spec: mrc-ide/stochasticity-practical/EXAMPLE1@odin_versions
+  stochasticity-practical/example2:
+    type: github
+    spec: mrc-ide/stochasticity-practical/EXAMPLE2@odin_versions
+  stochasticity-practical/example3:
+    type: github
+    spec: mrc-ide/stochasticity-practical/EXAMPLE3@odin_versions
   stochasticity-practical/example4:
     type: github
     spec: mrc-ide/stochasticity-practical/EXAMPLE4@odin_versions
+  stochasticity-practical/example5:
+    type: github
+    spec: mrc-ide/stochasticity-practical/EXAMPLE5@odin_versions
 
   hello:
     type: local
