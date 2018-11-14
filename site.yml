@@ -64,9 +64,9 @@ apps:
     admin:
       - ayan
 
-  stochasticity-practical/example1:
+  stochasticity-practical/example4:
     type: github
-    spec: mrc-ide/stochasticity-practical/EXAMPLE4@rich-updates
+    spec: mrc-ide/stochasticity-practical/EXAMPLE4@odin_versions
 
   hello:
     type: local
