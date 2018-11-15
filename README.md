@@ -99,3 +99,43 @@ See [`twinkle`](https://github.com/mrc-ide/twinkle) for the details.
 ### Other information
 
 There is a `#shiny-server` channel on slack for status updates/problems etc.
+
+### Notes for Rich
+
+#### Adding a new private repo:
+
+```
+ssh shiny
+./shiny_dide/scripts/vault_auth
+./shiny_dide/scripts/add_deploy_key <spec>
+```
+
+it will print instructions that can be either followed directly (for `mrc-ide` repos) or to send to the repo owner (for personal repos).
+
+#### Adding a new user
+
+```
+ssh shiny
+pwgen 10 1
+./shiny_dide/scripts/set_password <user>
+```
+
+#### In lieu of a better staging setup
+
+1. approve and merge the PR
+
+
+```
+ssh shiny
+cd shiny_dide
+./scripts/provision <newapp>
+```
+
+#### Pushing `twinkle` changes up to the server
+
+On whatever machine holds the `twinkle` source tree
+
+```
+./scripts/build
+./scripts/pull_images
+```
