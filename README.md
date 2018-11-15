@@ -65,6 +65,8 @@ The keys are:
 - `<github-account>/<repo-name>` is similar to what is used for `install_github` - where to find the repo.  This is `mrc-ide/typochallenge` for https://github.com/mrc-ide/typochallenge - but if your application lives at a subdirectory within your repo and you want a specific branch, tag, or commit you might want to use the full spec such as `mrc-ide/superhampster/inst/app@release` which would use the application within the directory `inst/app` on the `release` branch of the repository `mrc-ide/superhampster` (see `remotes::parse_github_repo_spec` to play with the parseing of these specs)
 - `<username>`: a username that you'd like on the server.  This will be used by the (currently in development) administration interface.  This does not need to be your DIDE username.
 
+Please be aware that your application may be redeployed at any time.  If you want to prevent changes that you make being reflected in the source, please provide a stable branch (e.g., `@release`, `@stable`) or pin to a particular commit with the SHA.
+
 **Is your repository private**: If so please add
 
 ```yaml
