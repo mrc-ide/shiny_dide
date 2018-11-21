@@ -76,6 +76,15 @@ Please be aware that your application may be redeployed at any time.  If you wan
 
 to the yaml above.  As part of the process Rich will send you a public key to add to your repo (if the repo is hosted on `mrc-ide` he will do this directly).
 
+**Does your application use other private repositories**: If so please add
+
+```yaml
+    auth:
+      type: github_pat
+```
+
+Create a GitHub personal access token [here](https://github.com/settings/tokens/new) with the description matching your application named and with the **repo** scope, and get that to Rich.
+
 **Do you want a private application**: If so please add
 
 ```yaml
