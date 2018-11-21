@@ -91,6 +91,16 @@ apps:
     groups:
       - dide-internal
 
+  shiny90:
+    type: github
+    spec: mrc-ide/shiny90
+    auth:
+      type: github_pat
+    groups:
+      - shiny90
+    admin:
+      - alex
+
 groups:
   dide-internal:
     - rich
@@ -100,4 +110,8 @@ groups:
     - epidem
     - jeff
   admin:
+    - rich
+  shiny90:
+    - shiny90test
+    - alex
     - rich
