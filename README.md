@@ -150,3 +150,11 @@ On whatever machine holds the `twinkle` source tree
 ./scripts/build
 ./scripts/pull_images
 ```
+
+#### Updating an app without reprovisioning
+
+This is useful with packages that make use of non-CRAN repos as we still get false positives there
+
+```
+./scripts/provision --update-source-only <appname>
+```
