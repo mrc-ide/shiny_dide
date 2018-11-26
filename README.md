@@ -24,6 +24,22 @@ docker-compose up -d --scale shiny=12
 ./scripts/register_workers 12
 ```
 
+### To update just one application
+
+Updating one application can be faster, especially at the moment as there are false positives with package updates.
+
+```
+./scripts/init
+./scripts/provision <appname>
+./scripts/sync_app <appname>
+```
+
+If the package library does not need updating then `./scripts/provision` accepts an argument `--update-source-only` which just updates the application sources.
+
+If you want to try provisioning from scratch, then pass in `--preclean`.
+
+Once run, your app will be available as `https://shiny.dide.imperial.ac.uk:9000/staging/<appname>/` on the VPN
+
 ### To add a new application
 
 
