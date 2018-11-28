@@ -64,6 +64,14 @@ apps:
     admin:
       - ayan
 
+  chainchecker:
+    type: github
+    spec: imperialebola2018/chainchecker 
+    auth:
+      type: deploy_key
+    admin:
+      - kgaythorpe
+  
   # Group of related applications for MSc teaching November 2018
   stochasticity-practical/example1:
     type: github
