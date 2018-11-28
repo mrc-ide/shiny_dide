@@ -64,7 +64,7 @@ apps:
     admin:
       - ayan
 
-   ChainCheckeR:
+   chainchecker:
      type: github
      spec: imperialebola2018/Onset_calculator 
      auth:
