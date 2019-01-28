@@ -115,7 +115,4 @@ groups:
     - jeff
   admin:
     - rich
-  shiny90:
-    - shiny90test
-    - alex
-    - rich
+
