@@ -102,10 +102,6 @@ apps:
   shiny90:
     type: github
     spec: mrc-ide/shiny90
-    auth:
-      type: github_pat
-    groups:
-      - shiny90
     admin:
       - alex
 
