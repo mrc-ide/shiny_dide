@@ -183,3 +183,11 @@ For example, to update the `admin` container:
 ./scripts/pull_images
 docker-compose up --no-deps -d admin
 ```
+
+#### Missing system dependencies
+
+If a package fails because of missing system dependencies, add it to the Dockerfile for the `shiny` container (currently https://github.com/mrc-ide/twinkle/blob/master/shiny/Dockerfile) and rebuild in `twinkle` by running `./scripts/build` - if you get an incomprehensible error message about Debian then try pulling the source image with `docker pull rocker/shiny`
+
+Then redeploy the admin container as above and try redeploying as above.
+
+Once that works, redeploy the worker containers.
