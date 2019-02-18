@@ -127,7 +127,7 @@ See [`twinkle`](https://github.com/mrc-ide/twinkle) for the details.
 
 There is a `#shiny-server` channel on slack for status updates/problems etc.
 
-### Notes for Rich
+### Notes for administrators
 
 #### Adding a new private repo:
 
@@ -173,4 +173,13 @@ This is useful with packages that make use of non-CRAN repos as we still get fal
 
 ```
 ./scripts/provision --update-source-only <appname>
+```
+
+#### Update a container
+
+For example, to update the `admin` container:
+
+```
+./scripts/pull_images
+docker-compose up --no-deps -d admin
 ```
