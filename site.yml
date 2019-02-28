@@ -75,8 +75,6 @@ apps:
   kpcascade:
     type: github
     spec: osymandius/kpcascade
-    auth:
-      type: deploy_key
     admin:
       - ostevens
   
