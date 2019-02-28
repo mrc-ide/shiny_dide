@@ -71,6 +71,12 @@ apps:
       type: deploy_key
     admin:
       - kgaythorpe
+
+  kpcascade:
+    type: github
+    spec: osymandius/kpcascade
+    admin:
+      - ostevens
   
   # Group of related applications for MSc teaching November 2018
   stochasticity-practical/example1:
