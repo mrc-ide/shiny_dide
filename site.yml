@@ -71,7 +71,16 @@ apps:
       type: deploy_key
     admin:
       - kgaythorpe
-
+      
+RAPTOR:
+    type: github
+    spec: mrc-ide/RAPTOR 
+    auth:
+      type: deploy_key
+    admin:
+      - kgaythorpe
+      - arranhamlet
+      
   kpcascade:
     type: github
     spec: osymandius/kpcascade
