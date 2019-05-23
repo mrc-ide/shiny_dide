@@ -72,13 +72,14 @@ apps:
     admin:
       - kgaythorpe
       
-chainchecker:
+RAPTOR:
     type: github
     spec: mrc-ide/RAPTOR 
     auth:
       type: deploy_key
     admin:
       - kgaythorpe
+      - arranhamlet
       
   kpcascade:
     type: github
