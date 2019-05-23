@@ -72,7 +72,7 @@ apps:
     admin:
       - kgaythorpe
       
-RAPTOR:
+raptor:
     type: github
     spec: mrc-ide/RAPTOR 
     auth:
