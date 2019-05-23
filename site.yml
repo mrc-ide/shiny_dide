@@ -80,7 +80,7 @@ raptor:
     admin:
       - kgaythorpe
       - arranhamlet
-      
+
   kpcascade:
     type: github
     spec: osymandius/kpcascade
