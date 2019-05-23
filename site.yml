@@ -71,7 +71,15 @@ apps:
       type: deploy_key
     admin:
       - kgaythorpe
-
+      
+chainchecker:
+    type: github
+    spec: mrc-ide/RAPTOR 
+    auth:
+      type: deploy_key
+    admin:
+      - kgaythorpe
+      
   kpcascade:
     type: github
     spec: osymandius/kpcascade
