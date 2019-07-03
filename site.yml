@@ -131,7 +131,7 @@ apps:
       
   epiestim:
     type: github
-    spec: jstockwin/EpiEstimApp@set_up_for_dide # will need changing to master
+    spec: jstockwin/EpiEstimApp/inst/app@set_up_for_dide # will need changing to master
     admin: acori
     
 groups:
