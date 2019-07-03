@@ -128,6 +128,11 @@ apps:
       type: deploy_key
     groups:
       - MVC
+      
+  epiestim:
+    type: github
+    spec: jstockwin/EpiEstimApp@set_up_for_dide # will need changing to master
+    admin: acori
     
 groups:
   dide-internal:
