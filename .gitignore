@@ -5,3 +5,4 @@ docker-compose.yml
 scripts/*
 !scripts/init
 restart.txt
+.Rproj.user
