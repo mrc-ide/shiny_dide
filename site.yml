@@ -14,6 +14,12 @@ vault:
   root: "/secret/shiny.dide"
 
 apps:
+  msc-idm-2019:
+    type: github
+    spec: mrc-ide/msc-idm-2019
+    admin:
+      - rich
+
   infectiousdiseasemodels-2019:
     type: github
     spec: mrc-ide/infectiousdiseasemodels-2019
