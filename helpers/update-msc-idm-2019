@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+set -ex
+./scripts/provision msc-idm-2019
+./scripts/sync_app msc-idm-2019
+./helpers/reload-msc-idm-2019
