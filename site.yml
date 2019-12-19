@@ -154,7 +154,16 @@ apps:
     type: github
     spec: jstockwin/EpiEstimApp/inst/app@release
     admin: acori
-    
+
+  AIMS_Epi_Cameroon:
+    type: github
+    spec: EllieSherrardSmith/AIMS_Cameroon
+    admin: ellie
+    auth:
+      type: deploy_key
+    groups:
+      - AIMS
+
 groups:
   dide-internal:
     - rich
@@ -168,4 +177,7 @@ groups:
   MVC:    
     - ellie
     - guestTester
+  AIMS:
+   - ellie
+   - AIMS_Cameroon
 
