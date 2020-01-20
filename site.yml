@@ -155,7 +155,7 @@ apps:
     spec: jstockwin/EpiEstimApp/inst/app@release
     admin: acori
 
-  AIMS_Epi_Cameroon:
+  aims-epi-cameroon:
     type: github
     spec: EllieSherrardSmith/AIMS_Cameroon
     admin: ellie
