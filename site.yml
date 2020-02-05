@@ -161,8 +161,6 @@ apps:
     admin: ellie
     auth:
       type: deploy_key
-    groups:
-      - AIMS
 
 groups:
   dide-internal:
@@ -177,7 +175,3 @@ groups:
   MVC:    
     - ellie
     - guestTester
-  AIMS:
-   - ellie
-   - AIMS_Cameroon
-
