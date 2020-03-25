@@ -161,6 +161,15 @@ apps:
     admin: ellie
     auth:
       type: deploy_key
+      
+  india_covid_model:
+      type: github
+      spec: ncov-ic/india_covid_model
+      admin: verg
+      auth:
+        type: deploy_key
+      groups:
+      - india_covid
 
 groups:
   dide-internal:
@@ -175,3 +184,8 @@ groups:
   MVC:    
     - ellie
     - guestTester
+  india_covid:
+    - verg
+    - ed
+    - marga
+    - nick
