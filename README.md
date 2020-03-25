@@ -147,6 +147,18 @@ pwgen 10 1
 ./shiny_dide/scripts/set_password <user>
 ```
 
+Then run
+
+```
+./shiny_dide/scripts/configure_apache
+```
+
+to write out the configuration, and force apache to reload it with
+
+```
+docker exec shiny_dide_apache_1 apachectl -k graceful
+```
+
 #### In lieu of a better staging setup
 
 1. approve and merge the PR
