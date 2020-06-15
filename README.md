@@ -203,3 +203,15 @@ If a package fails because of missing system dependencies, add it to the Dockerf
 Then redeploy the admin container as above and try redeploying as above.
 
 Once that works, redeploy the worker containers.
+
+#### Updating the certificate
+
+```
+cat shiny_dide_imperial_ac_uk.crt \
+    RootCertificates/QuoVadisOVIntermediateCertificate.crt \
+    RootCertificates/QuoVadisOVRootCertificate.crt > certificate.pem
+./scripts/vault_auth
+./scripts/import_ssl key.pem certificate.pem
+./scripts/configure_apache
+docker exec shiny_dide_apache_1 apachectl -k graceful
+```
