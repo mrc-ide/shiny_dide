@@ -170,6 +170,11 @@ apps:
         type: deploy_key
       groups:
       - india_covid
+      
+  UK_lineages:
+    type: github
+    spec: robj411/lineageApp
+    admin: rj411
 
 groups:
   dide-internal:
