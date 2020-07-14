@@ -171,7 +171,7 @@ apps:
       groups:
       - india_covid
       
-  UK_lineages:
+  s614LineagesUK:
     type: github
     spec: robj411/lineageApp
     admin: rj411
