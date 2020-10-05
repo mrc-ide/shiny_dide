@@ -184,8 +184,5 @@ groups:
     - jeff
   admin:
     - rich
-  MVC:    
-    - ellie
-    - guestTester
   india_covid:
     - verg
