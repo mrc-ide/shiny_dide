@@ -141,14 +141,12 @@ apps:
     admin:
       - alex
 
-  malaria_vector_control_decisions_tool:
+  mint:
     type: github
     spec: mrc-ide/shiny-malaria-UI
     admin: ellie
     auth:
       type: deploy_key
-    groups:
-      - MVC
       
   epiestim:
     type: github
