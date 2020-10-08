@@ -1,0 +1,2 @@
+#!/usr/bin/env bash
+docker exec shiny_dide_admin_1 ./apps/msc-idm-2020/reload
