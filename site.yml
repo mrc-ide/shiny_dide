@@ -20,6 +20,12 @@ apps:
     admin:
       - rich
 
+  msc-idm-2020:
+    type: github
+    spec: mrc-ide/msc-idm-2020
+    admin:
+      - rich
+
   infectiousdiseasemodels-2019:
     type: github
     spec: mrc-ide/infectiousdiseasemodels-2019
