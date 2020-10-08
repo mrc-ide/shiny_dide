@@ -107,6 +107,12 @@ apps:
     spec: osymandius/kpcascade
     admin:
       - ostevens
+
+  csavr_mortality:
+    type: github
+    spec: osymandius/csavr_mortality
+    admin:
+      - ostevens
   
   # Group of related applications for MSc teaching November 2018
   stochasticity-practical/example1:
