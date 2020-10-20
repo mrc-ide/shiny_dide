@@ -120,7 +120,7 @@ apps:
     admin:
       - ostevens
 
-  naomi_viewer:
+  naomi-viewer:
     type: github
     spec: osymandius/naomi_viewer
     admin:
