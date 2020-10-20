@@ -122,7 +122,7 @@ apps:
 
   naomi-viewer:
     type: github
-    spec: mrc-ide/naomi-viewer
+    spec: mrc-ide/naomi-viewer@main
     admin:
       - ostevens
   
