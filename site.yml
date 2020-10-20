@@ -116,7 +116,13 @@ apps:
 
   csavr_mortality:
     type: github
-    spec: osymandius/csavr_mortality
+    spec: mrc-ide/csavr-mortality
+    admin:
+      - ostevens
+
+  naomi-viewer:
+    type: github
+    spec: mrc-ide/naomi-viewer
     admin:
       - ostevens
   
