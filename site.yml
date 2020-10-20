@@ -119,6 +119,12 @@ apps:
     spec: osymandius/csavr_mortality
     admin:
       - ostevens
+
+  naomi_viewer:
+    type: github
+    spec: osymandius/naomi_viewer
+    admin:
+      - ostevens
   
   # Group of related applications for MSc teaching November 2018
   stochasticity-practical/example1:
