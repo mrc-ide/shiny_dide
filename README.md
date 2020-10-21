@@ -215,3 +215,7 @@ cat shiny_dide_imperial_ac_uk.crt \
 ./scripts/configure_apache
 docker exec shiny_dide_apache_1 apachectl -k graceful
 ```
+
+#### Debugging failed apps
+
+If the app fails on the staging server, you'll need to check the logs. These are stored in `/shiny/logs/staging`
