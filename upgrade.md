@@ -65,6 +65,7 @@ Bring down the old system with
 
 ```
 docker-compose stop
+docker container prune
 ```
 
 Mount the old volume into an ubuntu image and make a copy of it for safekeeping
@@ -89,4 +90,4 @@ docker volume rm shiny_dide_applications shiny_dide_staging
 
 * `msc-idm-2019`: `./helpers/reload-msc-idm-2019`
 * `msc-idm-2019`: `./helpers/reload-msc-idm-2020`
-* `infectiousdiseasemodels-2019`: `helpers/reload-infectiousdiseasemodels-2019`
+* `infectiousdiseasemodels-2019`: `./helpers/reload-infectiousdiseasemodels-2019`
