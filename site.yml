@@ -32,28 +32,6 @@ apps:
     admin:
       - rich
 
-  typochallenge:
-    type: github
-    spec: mrc-ide/typochallenge
-    protect:
-      paths:
-        - emails.db
-        - contributions
-    secret:
-      .redis:
-        path: "misc/redis-url"
-        field: value
-      .googlesheets-oauth:
-        path: "misc/googlesheets-oauth"
-        field: token
-        binary: true
-    schedule:
-      update_googlesheets:
-        frequency: "@hourly"
-        command: ./update_googlesheets
-    admin:
-      - acori
-
   eppasmviewer:
     type: github
     spec: mrc-ide/eppasmviewer/inst/shiny/eppasmviewer
@@ -73,14 +51,6 @@ apps:
     type: github
     spec: ojwatson/hrp2malaRia/inst/shiny-seasonality/app
     admin: ojwatson
-
-  flupractical2:
-    type: github
-    spec: ada-w-yan/fitr
-    auth:
-      type: deploy_key
-    admin:
-      - ayan
 
   chainchecker:
     type: github
@@ -122,27 +92,10 @@ apps:
 
   naomi-viewer:
     type: github
-    spec: mrc-ide/naomi-viewer@main
+    spec: mrc-ide/naomi-viewer
     admin:
       - ostevens
   
-  # Group of related applications for MSc teaching November 2018
-  stochasticity-practical/example1:
-    type: github
-    spec: mrc-ide/stochasticity-practical/example1
-  stochasticity-practical/example2:
-    type: github
-    spec: mrc-ide/stochasticity-practical/example2
-  stochasticity-practical/example3:
-    type: github
-    spec: mrc-ide/stochasticity-practical/example3
-  stochasticity-practical/example4:
-    type: github
-    spec: mrc-ide/stochasticity-practical/example4
-  stochasticity-practical/example5:
-    type: github
-    spec: mrc-ide/stochasticity-practical/example5
-
   hello:
     type: local
     spec: hello
