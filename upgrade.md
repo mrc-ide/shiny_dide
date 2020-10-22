@@ -52,10 +52,19 @@ Theoretically we can do
 
 to update all apps. This will possibly work, but it's not guaranteed and will be a bit tedious to recover from. After a major upgrade I worked through the list of apps and categorised problems - some were due to missing libraries on the server due to the upstream docker image changing, some where deploy keys that had been removed.
 
+To provision an app, use the `./scripts/provision` script, such as
+
 ```
-./scripts/provision msc-idm-2019
 ./scripts/provision msc-idm-2020
 ```
+
+and then check the staging server, as http://129.31.x.y:3838/staging/msc-idm-2020/
+
+Last time, most apps deployed fine except for:
+
+* Several where the deploy key had disappeared (I don't think that they expire so was surprised about this)
+* A couple that had acquired additional system dependencies and needed the base image updated (`./shiny/Dockerfile`)
+* A few that simply no longer worked to do dependency drift, but were old and could be discarded
 
 ## Taking down the old version
 
