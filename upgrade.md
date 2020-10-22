@@ -98,5 +98,5 @@ docker volume rm shiny_dide_applications shiny_dide_staging
 ## Apps that require special care and tending:
 
 * `msc-idm-2019`: `./helpers/reload-msc-idm-2019`
-* `msc-idm-2019`: `./helpers/reload-msc-idm-2020`
+* `msc-idm-2020`: `./helpers/reload-msc-idm-2020`
 * `infectiousdiseasemodels-2019`: `./helpers/reload-infectiousdiseasemodels-2019`
