@@ -196,6 +196,14 @@ For example, to update the `admin` container:
 docker-compose up --no-deps -d admin
 ```
 
+If you replace the shiny server containers you need to do:
+
+```
+./scripts/pull_images
+docker-compose up --no-deps -d --scale shiny=12
+./scripts/register_workers 12
+```
+
 #### Missing system dependencies
 
 If a package fails because of missing system dependencies, add it to the Dockerfile for the `shiny` container (currently https://github.com/mrc-ide/twinkle/blob/master/shiny/Dockerfile) and rebuild in `twinkle` by running `./scripts/build` - if you get an incomprehensible error message about Debian then try pulling the source image with `docker pull rocker/shiny`
