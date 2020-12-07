@@ -92,7 +92,7 @@ apps:
 
   naomi-viewer:
     type: github
-    spec: mrc-ide/naomi-viewer@dhis-programme
+    spec: mrc-ide/naomi-viewer
     admin:
       - ostevens
   
