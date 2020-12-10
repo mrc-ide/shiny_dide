@@ -90,7 +90,7 @@ apps:
     admin:
       - ostevens
 
-  shinyrob:
+  naomi-viewer:
     type: github
     spec: mrc-ide/shinyrob
     admin:
