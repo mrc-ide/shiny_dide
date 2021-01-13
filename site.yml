@@ -145,6 +145,11 @@ apps:
     spec: robj411/lineageApp
     admin: rj411
 
+  covid19-forecasts-shiny:
+    type: github
+    spec: mrc-de/covid19-forecasts-orderly-shiny@main
+    admin: sbhatia
+
 groups:
   dide-internal:
     - rich
