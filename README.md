@@ -66,7 +66,7 @@ packages:
 
 Which will install your package (and its dependencies).  The `packages` section is optional and installs any additional packages required (packages that your package only `Suggests` are not included by default).
 
-**Modify _this_ repository so that we know about your application**.  First, fork this repository.  Edit the [`site.yml`](site.yml) to add your new application.  In most cases this will look like
+**Modify _this_ repository so that we know about your application**.  First, fork [this](https://github.com/mrc-ide/shiny_dide/) repository.  Edit the [`site.yml`](site.yml) to add your new application.  In most cases this will look like
 
 ```yaml
   <path-for-your-app>:
