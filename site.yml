@@ -147,7 +147,7 @@ apps:
 
   covid19-forecasts-shiny:
     type: github
-    spec: mrc-de/covid19-forecasts-orderly-shiny@main
+    spec: mrc-ide/covid19-forecasts-orderly-shiny@main
     admin: sbhatia
 
 groups:
