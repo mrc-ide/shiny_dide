@@ -149,7 +149,16 @@ apps:
     type: github
     spec: mrc-ide/covid19-forecasts-orderly-shiny@main
     admin: sbhatia
-
+  
+  covid19-orphans:
+    type: github
+    spec: ImperialCollegeLondon/covid19orphans_shiny
+    admin: ettieunwin
+    auth:
+      type: deploy_key
+    groups:
+    - orphans
+    
 groups:
   dide-internal:
     - rich
@@ -162,3 +171,5 @@ groups:
     - rich
   india_covid:
     - verg
+  orphans:
+    - ettieunwin
