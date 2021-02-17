@@ -152,7 +152,7 @@ apps:
   
   covid19-orphans:
     type: github
-    spec: ImperialCollegeLondon/covid19orphans_shiny
+    spec: ImperialCollegeLondon/covid19orphans_shiny@main
     admin: ettieunwin
     auth:
       type: deploy_key
