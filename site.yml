@@ -32,6 +32,12 @@ apps:
     admin:
       - rich
 
+  odin:
+    type: github
+    spec: mrc-ide/odin-app@main
+    admin:
+      - rich
+
   eppasmviewer:
     type: github
     spec: mrc-ide/eppasmviewer/inst/shiny/eppasmviewer
