@@ -170,6 +170,11 @@ apps:
       type: deploy_key
     groups:
     - orphans
+
+  covid19-si-shiny:
+    type: github
+    spec: mrc-ide/covid19-si-shiny@main
+    admin: sbhatia
     
 groups:
   dide-internal:
