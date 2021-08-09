@@ -38,6 +38,12 @@ apps:
     admin:
       - rich
 
+  infectiousdiseasemodels-2021:
+    type: github
+    spec: mrc-ide/infectiousdiseasemodels-2021
+    admin:
+      - rich
+
   odin:
     type: github
     spec: mrc-ide/odin-app@main
