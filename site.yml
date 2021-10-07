@@ -26,6 +26,12 @@ apps:
     admin:
       - rich
 
+  msc-idm-2021:
+    type: github
+    spec: mrc-ide/msc-idm-2021
+    admin:
+      - rich
+
   pfizer-flu-fitting:
     type: github
     spec: mrc-ide/msc-idm-2020/flu
