@@ -28,7 +28,7 @@ apps:
 
   msc-idm-2021:
     type: github
-    spec: mrc-ide/msc-idm-2021
+    spec: mrc-ide/msc-idm-2021@main
     admin:
       - rich
 
