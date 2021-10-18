@@ -76,6 +76,11 @@ apps:
     spec: ojwatson/hrp2malaRia/inst/shiny-seasonality/app
     admin: ojwatson
 
+  nimue_national_fits:
+    type: github
+    spec: mrc-ide/nimue/inst/shiny-nimue-fits/app
+    admin: ojwatson
+
   chainchecker:
     type: github
     spec: imperialebola2018/chainchecker 
