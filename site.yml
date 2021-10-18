@@ -76,7 +76,7 @@ apps:
     spec: ojwatson/hrp2malaRia/inst/shiny-seasonality/app
     admin: ojwatson
 
-  nimue_national_fits:
+  nimue-national-fits:
     type: github
     spec: mrc-ide/nimue/inst/shiny-nimue-fits/app
     admin: ojwatson
