@@ -143,7 +143,7 @@ apps:
 
   shiny90-staging:
     type: github
-    spec: mrc-ide/shiny90
+    spec: mrc-ide/shiny90@fix-provision
     admin:
       - alex
 
