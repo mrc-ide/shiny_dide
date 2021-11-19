@@ -141,6 +141,12 @@ apps:
     admin:
       - alex
 
+  shiny90-staging:
+    type: github
+    spec: mrc-ide/shiny90
+    admin:
+      - alex
+
   mint:
     type: github
     spec: mrc-ide/shiny-malaria-UI
