@@ -50,6 +50,12 @@ apps:
     admin:
       - rich
 
+  infectiousdiseasemodels-brazil:
+    type: github
+    spec: mrc-ide/infectiousdiseasemodels-brazil
+    admin:
+      - rich
+
   odin:
     type: github
     spec: mrc-ide/odin-app@main
