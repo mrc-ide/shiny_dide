@@ -52,7 +52,7 @@ apps:
 
   infectiousdiseasemodels-brazil:
     type: github
-    spec: mrc-ide/infectiousdiseasemodels-brazil
+    spec: mrc-ide/infectiousdiseasemodels-brazil@main
     admin:
       - rich
 
