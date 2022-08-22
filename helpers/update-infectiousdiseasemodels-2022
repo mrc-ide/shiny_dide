@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
 set -ex
-# ./scripts/provision infectiousdiseasemodels-2022
+./scripts/provision infectiousdiseasemodels-2022
 ./scripts/sync_app infectiousdiseasemodels-2022
 ./helpers/reload-infectiousdiseasemodels-2022
