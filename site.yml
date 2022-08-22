@@ -50,6 +50,12 @@ apps:
     admin:
       - rich
 
+  infectiousdiseasemodels-2022:
+    type: github
+    spec: mrc-ide/infectiousdiseasemodels-2022
+    admin:
+      - rich
+
   infectiousdiseasemodels-brazil:
     type: github
     spec: mrc-ide/infectiousdiseasemodels-brazil@main
