@@ -32,6 +32,12 @@ apps:
     admin:
       - rich
 
+  msc-idm-2022:
+    type: github
+    spec: mrc-ide/msc-idm-2022@main
+    admin:
+      - rich
+
   pfizer-flu-fitting:
     type: github
     spec: mrc-ide/msc-idm-2020/flu
@@ -59,6 +65,12 @@ apps:
   infectiousdiseasemodels-brazil:
     type: github
     spec: mrc-ide/infectiousdiseasemodels-brazil@main
+    admin:
+      - rich
+
+  infectiousdiseasemodels-lusaka-2022:
+    type: github
+    spec: mrc-ide/infectiousdiseasemodels-lusaka-2022@main
     admin:
       - rich
 
@@ -210,7 +222,7 @@ apps:
     type: github
     spec: mrc-ide/covid19-si-shiny@main
     admin: sbhatia
-    
+
 groups:
   dide-internal:
     - rich
