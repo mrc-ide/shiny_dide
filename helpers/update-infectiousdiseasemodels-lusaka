@@ -1,5 +1,0 @@
-#!/usr/bin/env bash
-set -ex
-./scripts/provision infectiousdiseasemodels-lusaka
-./scripts/sync_app infectiousdiseasemodels-lusaka
-./helpers/reload-infectiousdiseasemodels-lusaka

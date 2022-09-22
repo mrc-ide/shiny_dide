@@ -1,3 +1,0 @@
-#!/usr/bin/env bash
-docker exec shiny_dide_admin_1 ./staging/infectiousdiseasemodels-lusaka/reload
-docker exec shiny_dide_admin_1 ./apps/infectiousdiseasemodels-lusaka/reload
