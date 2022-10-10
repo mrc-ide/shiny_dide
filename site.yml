@@ -68,6 +68,12 @@ apps:
     admin:
       - rich
 
+  infectiousdiseasemodels-singapore:
+    type: github
+    spec: mrc-ide/infectiousdiseasemodels-singapore@master
+    admin:
+      - rich
+
   infectiousdiseasemodels-lusaka-2022:
     type: github
     spec: mrc-ide/infectiousdiseasemodels-lusaka-2022@main

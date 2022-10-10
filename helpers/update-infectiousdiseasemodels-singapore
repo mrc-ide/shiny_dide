@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+set -ex
+./scripts/provision infectiousdiseasemodels-singapore
+./scripts/sync_app infectiousdiseasemodels-singapore
+./helpers/reload-infectiousdiseasemodels-singapore
