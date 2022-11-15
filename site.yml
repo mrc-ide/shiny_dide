@@ -74,6 +74,12 @@ apps:
     admin:
       - rich
 
+  malawi-idm-2022:
+    type: github
+    spec: mrc-ide/malawi-idm-2022@main
+    admin:
+      - rich
+
   infectiousdiseasemodels-lusaka-2022:
     type: github
     spec: mrc-ide/infectiousdiseasemodels-lusaka-2022@main
@@ -113,24 +119,24 @@ apps:
 
   chainchecker:
     type: github
-    spec: imperialebola2018/chainchecker 
+    spec: imperialebola2018/chainchecker
     auth:
       type: deploy_key
     admin:
       - kgaythorpe
-      
+
   raptor:
     type: github
-    spec: mrc-ide/RAPTOR 
+    spec: mrc-ide/RAPTOR
     auth:
       type: deploy_key
     admin:
       - kgaythorpe
       - arranhamlet
-      
+
   raptorx:
     type: github
-    spec: mrc-ide/RAPTORX 
+    spec: mrc-ide/RAPTORX
     auth:
       type: deploy_key
     admin:
@@ -154,7 +160,7 @@ apps:
     spec: mrc-ide/shinyrob
     admin:
       - ostevens
-  
+
   hello:
     type: local
     spec: hello
@@ -183,7 +189,7 @@ apps:
     admin: ellie
     auth:
       type: deploy_key
-      
+
   epiestim:
     type: github
     spec: jstockwin/EpiEstimApp/inst/app@release
@@ -195,7 +201,7 @@ apps:
     admin: ellie
     auth:
       type: deploy_key
-      
+
   india_covid_model:
       type: github
       spec: ncov-ic/india_covid_model
@@ -204,7 +210,7 @@ apps:
         type: deploy_key
       groups:
       - india_covid
-      
+
   s614LineagesUK:
     type: github
     spec: robj411/lineageApp
@@ -214,7 +220,7 @@ apps:
     type: github
     spec: mrc-ide/covid19-forecasts-orderly-shiny@main
     admin: sbhatia
-  
+
   covid19-orphans:
     type: github
     spec: ImperialCollegeLondon/covid19orphans_shiny@main

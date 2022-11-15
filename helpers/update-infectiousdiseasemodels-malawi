@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+set -ex
+./scripts/provision infectiousdiseasemodels-malawi
+./scripts/sync_app infectiousdiseasemodels-malawi
+./helpers/reload-infectiousdiseasemodels-malawi
