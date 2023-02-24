@@ -235,6 +235,11 @@ apps:
     spec: mrc-ide/covid19-si-shiny@main
     admin: sbhatia
 
+  tfpbrowser:
+    type: github
+    spec: mrc-ide/tfpbrowser@main
+    admin: emvolz
+
 groups:
   dide-internal:
     - rich
