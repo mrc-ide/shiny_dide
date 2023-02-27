@@ -237,7 +237,7 @@ apps:
 
   tfpbrowser:
     type: github
-    spec: mrc-ide/tfpbrowser@main
+    spec: mrc-ide/tfpbrowser/inst/app@main
     admin: emvolz
 
 groups:
