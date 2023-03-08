@@ -239,6 +239,8 @@ apps:
     type: github
     spec: mrc-ide/tfpbrowser/inst/app@main
     admin: emvolz
+    groups:
+      tfpbrowser
 
 groups:
   dide-internal:
@@ -255,3 +257,5 @@ groups:
   orphans:
     - ettieunwin
     - covidorphans
+  tfpbrowser:
+    - tfpbrowser
