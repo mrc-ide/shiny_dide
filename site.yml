@@ -242,6 +242,11 @@ apps:
     groups:
       tfpbrowser
 
+  DRpower-app:
+    type: github
+    spec: shaziaruybal/DRpower_app@main
+    admin: shaziaruybal
+    
 groups:
   dide-internal:
     - rich
