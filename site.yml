@@ -119,7 +119,7 @@ apps:
 
   pfhrp23-explainer:
     type: github
-    spec: rjzupkoii/WHO-Malaria-pfhrp23/R
+    spec: rjzupkoii/WHO-Malaria-pfhrp23/R@main
     admin: 
       - ojwatson
 
