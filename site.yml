@@ -117,6 +117,12 @@ apps:
     spec: mrc-ide/nimue/inst/shiny-nimue-fits/app
     admin: ojwatson
 
+  pfhrp23-explainer:
+    type: github
+    spec: rjzupkoii/WHO-Malaria-pfhrp23/R
+    admin: 
+      - ojwatson
+
   chainchecker:
     type: github
     spec: imperialebola2018/chainchecker
