@@ -273,5 +273,5 @@ groups:
 
 starmeds-budget-tool:
     type: github
-    spec: mrc-ide/dide
-    admin: saraalmeida123
+    spec: adriangh3orghe/STARmeds_dash/dide
+    admin: adriangh3orghe
