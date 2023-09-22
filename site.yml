@@ -270,3 +270,8 @@ groups:
     - covidorphans
   tfpbrowser:
     - tfpbrowser
+
+starmeds-budget-tool:
+    type: github
+    spec: mrc-ide/dide
+    admin: saraalmeida123
