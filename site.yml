@@ -255,7 +255,7 @@ apps:
 
   starmeds-budget-tool:
     type: github
-    spec: adriangh3orghe/STARmeds_dash/dide
+    spec: adriangh3orghe/STARmeds_dash/dide@main
     admin: adriangh3orghe
     
 groups:
