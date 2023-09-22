@@ -252,6 +252,11 @@ apps:
     type: github
     spec: shaziaruybal/DRpower_app@main
     admin: shaziaruybal
+
+  starmeds-budget-tool:
+    type: github
+    spec: adriangh3orghe/STARmeds_dash/dide
+    admin: adriangh3orghe
     
 groups:
   dide-internal:
@@ -270,8 +275,3 @@ groups:
     - covidorphans
   tfpbrowser:
     - tfpbrowser
-
-starmeds-budget-tool:
-    type: github
-    spec: adriangh3orghe/STARmeds_dash/dide
-    admin: adriangh3orghe
