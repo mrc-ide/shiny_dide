@@ -167,6 +167,12 @@ apps:
     admin:
       - ostevens
 
+  kp-data:
+    type: github
+    spec: mrc-ide/kp-data-shiny
+    admin:
+      - ostevens
+
   hello:
     type: local
     spec: hello
