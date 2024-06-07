@@ -169,7 +169,7 @@ apps:
 
   kp-data:
     type: github
-    spec: mrc-ide/kp-data-shiny
+    spec: mrc-ide/kp-data-shiny@main
     admin:
       - ostevens
 
