@@ -151,7 +151,7 @@ apps:
 
   learnr-test:
     type: github
-    spec: mrc-ide/learnr_test@main/test
+    spec: mrc-ide/learnr_test@main
     admin:
       - rich
 
