@@ -149,6 +149,12 @@ apps:
       - kgaythorpe
       - arranhamlet
 
+  learnr-test:
+    type: github
+    spec: mrc-ide/learnr_test@main
+    admin:
+      - rich
+
   kpcascade:
     type: github
     spec: osymandius/kpcascade
