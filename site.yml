@@ -155,6 +155,12 @@ apps:
     admin:
       - rich
 
+  mms-sd-workshop:
+    type: github
+    spec: mrc-ide/MMS-SD_workshop/tutorials@main
+    admin:
+      - rich
+
   kpcascade:
     type: github
     spec: osymandius/kpcascade
