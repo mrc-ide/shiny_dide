@@ -1,0 +1,2 @@
+#!/usr/bin/bash
+docker exec -it shiny_dide_admin_1 ./staging/mms-sd-workshop/prepare
